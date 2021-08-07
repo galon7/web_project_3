@@ -1,0 +1,543 @@
+@import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
+
+.page {
+  max-width: 1280px;
+  background-color: #2A2C2F;
+  margin: 0 auto;
+  font-family: 'Inter' ;
+  color: white;
+}
+
+.page__container {
+  max-width: 1184px;
+  margin: 34px auto 24px;
+}
+
+.header {
+  max-width: calc(100% - 148px * 2);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__language {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.header__language-item {
+  margin-left: 18px;
+}
+
+.header__link {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: normal;
+  color: white;
+}
+
+.header__link:focus {
+  border-bottom: 2px white solid;
+}
+
+.header__logo {
+  width: 190px;
+  height: 44px;
+}
+
+.lead {
+  color: white;
+  text-align: center;
+}
+
+.lead__title {
+  max-width: 720px;
+  margin: 58px auto 32px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+}
+
+.lead__subtitle {
+  max-width: 620px;
+  margin: 0 auto 64px;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+}
+
+.lead__image_container {
+  max-width: calc(100% - 148px * 2);
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 92px;
+}
+
+.lead__image {
+  margin-bottom: 8px;
+  max-width: 984px;
+}
+
+.lead__caption {
+  font-size: 10px;
+  line-height: 14px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0;
+}
+
+.intro {
+  max-width: 690px;
+  display: flex;
+  flex-direction: column;
+  margin: 12px 148px 0;
+}
+
+.intro__title{
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0;
+}
+
+.intro__subtitle {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  margin: 56px 0 42px;
+}
+
+.intro__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0 0 33px;
+}
+
+.intro__list {
+  padding: 0;
+  margin: 0 0 92px;
+}
+
+.intro__list_item {
+  list-style: none;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__list_item_span-accent {
+  font-weight: normal;
+}
+
+.photo-grid {
+  min-height: 671px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 16px;
+  margin-bottom: 12px;
+}
+
+.photo-grid__item {
+  background-size: cover;
+  height: 213px;
+  width: 284px;
+}
+
+.photo-grid__item_highway {
+  background-image: url(../images/photo-grid-highway.jpg);
+}
+
+.photo-grid__item_lake {
+  background-image: url(../images/photo-grid-lake.jpg);
+}
+
+.photo-grid__item_seagulls {
+  background-image: url(../images/photo-grid-seagulls.jpg);
+}
+
+.photo-grid__item_boise {
+  background-image: url(../images/photo-grid-boise.jpg);
+}
+
+.photo-grid__item_fog {
+  background-image: url(../images/photo-grid-fog.jpg);
+}
+
+.photo-grid__item_valley {
+  background-image: url(../images/photo-grid-valley.jpg);
+}
+
+.photo-grid__item_pass {
+  background-image: url(../images/photo-grid-pass.jpg);
+}
+
+.photo-grid__item_twig {
+  background-image: url(../images/photo-grid-twig.jpg);
+}
+
+.photo-grid__item_clouds {
+  background-image: url(../images/photo-grid-clouds.jpg);
+}
+
+.photo-grid__item_oasis {
+  background-image: url(../images/photo-grid-oasis.jpg);
+}
+
+.photo-grid__item_wires {
+  background-image: url(../images/photo-grid-wires.jpg);
+}
+
+.photo-grid__item_road {
+  background-image: url(../images/photo-grid-road.jpg);
+}
+
+.places {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.places__header {
+  display: flex;
+  margin: 80px 0 48px;
+}
+
+.places__title {
+  width: 460px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+  align-self: center;
+}
+
+.places__website {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 0 0 0 40px;
+}
+
+.places__url-heading {
+  margin: 0;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2em;
+  color: #AAAAAA;
+  ;
+}
+
+.places__link {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: white;
+}
+
+.places__content {
+  display: flex;
+}
+
+.places__image {
+  height: 460px;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+
+.places__link:hover {
+  cursor: pointer;
+}
+
+.places__paragraph {
+  margin: 0 0 25px 40px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+}
+
+.cover {
+  position: relative;
+  margin: 92px 0;
+}
+
+.cover__text {
+  z-index: 1;
+}
+
+.cover__link {
+  min-height: 740px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFDFD;
+  text-decoration: none;
+  margin: 0;
+  background-image: url(../images/cover-route-66.jpg);
+}
+
+.cover__link::after {
+  content: "";
+  background: #2A2C2F;
+  opacity: 0.3;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+}
+
+.cover__link:hover::after {
+  opacity: 0.8;
+}
+
+.cover__title {
+  margin: 0 auto 32px;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+}
+
+.cover__subtitle {
+  max-width: 320px;
+  margin: 0 auto;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.footer__links_item {
+}
+
+.footer__link {
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  margin-right: 19px;
+}
+
+.footer__copyright {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .page__container {
+    margin: 0;
+  }
+
+  .header {
+    max-width: 100%;
+    margin: 34px 48px 0px;
+  }
+
+  .lead__image_container {
+    max-width: calc(100% - 48px * 2);
+  }
+
+  .photo-grid {
+    min-height: 942px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 14px;
+    margin: 0 48px 12px;
+  }
+
+  .photo-grid__item {
+    height: 225px;
+    width: 100%;
+  }
+
+  .intro {
+    margin-left: 48px;
+  }
+
+  .places__website {
+    max-width: 440px;
+    margin-left: 48px;
+  }
+
+  .places__image {
+    height: 440px;
+  }
+
+  .footer {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+  .header {
+    max-width: calc(100% - 24px * 2);
+  }
+
+  .lead__title {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .lead__subtitle {
+    margin-left: 74px;
+    margin-right: 74px;
+  }
+  .lead__image_container {
+    max-width: 100%;
+  }
+
+  .photo-grid {
+    min-height: 1664px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-gap: 16px;
+    margin: 0 48px 12px;
+  }
+
+  .photo-grid__item {
+    height: 225px;
+    width: 100%;
+  }
+
+  .places__website {
+    max-width: 440px;
+    margin-left: 24px;
+  }
+
+  .places__title {
+    font-size: 42px;
+    line-height: 46px;
+  }
+
+  .places__image {
+    height: 340px;
+  }
+
+  .places__url-heading {
+    line-height: 12px;
+  }
+
+  .places__paragraph {
+    font-size: 16px;
+    line-height: 163%;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 320px) {
+  .page__container {
+    margin: 0;
+  }
+
+  .header {
+    max-width: calc(100% - 16px * 2);
+    margin: 20px 16px 0;
+  }
+
+  .header__logo {
+    width: 156px;
+  }
+
+  .header__link {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    margin: 50px 16px 16px;
+  }
+
+  .lead__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 16px 40px;
+  }
+
+  .lead__caption {
+    margin-left: 16px;
+  }
+
+  .lead__image_container {
+    margin-bottom: 86px;
+  }
+
+  .intro {
+    margin: 0 16px 0;
+  }
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .intro__subtitle {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .intro__text {
+    font-size: 16px;
+    line-height: 26px;
+  }
+
+  .photo-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(12, 1fr);
+    grid-gap: 12px;
+    margin: 0 16px 0;
+  }
+
+  .photo-grid__item {
+    height: 216px;
+    width: 100%;
+  }
+
+  .places__website {
+
+  }
+
+}
