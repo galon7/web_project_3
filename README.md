@@ -3,6 +3,7 @@
 ### Overview
 * Intro
 * New skills
+* Website
 
 **Intro**
 
@@ -11,3 +12,7 @@
 **New skills**
 
 * In this project I learned how to use Figma, CSS grid, use external fonts, optimize images, publish on GitHub pages and more.
+
+**Website**
+
+* (https://galon7.github.io/web_project_3 "Project on GitHub Pages")
