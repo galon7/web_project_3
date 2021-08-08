@@ -6,7 +6,7 @@
 
 **Intro**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes.
+* This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes.
 
 **New skills**
 
