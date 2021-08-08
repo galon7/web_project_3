@@ -15,4 +15,4 @@
 
 **Website**
 
-* (https://galon7.github.io/web_project_3 "Project on GitHub Pages")
+* [The project on GitHub Pages](https://galon7.github.io/web_project_3)
