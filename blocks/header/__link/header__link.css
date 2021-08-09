@@ -6,10 +6,6 @@
   color: white;
 }
 
-.header__link:focus {
-  border-bottom: 2px white solid;
-}
-
 @media screen and (max-width: 320px) {
 
   .header__link {

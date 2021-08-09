@@ -6,3 +6,7 @@
   color: white;
   margin-right: 19px;
 }
+
+.footer__link:hover {
+  opacity: .8;
+}

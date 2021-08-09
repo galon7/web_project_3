@@ -1,3 +1,7 @@
 .header__language-item {
   margin-left: 18px;
 }
+
+.header__language-item:hover {
+  opacity: .8;
+}
