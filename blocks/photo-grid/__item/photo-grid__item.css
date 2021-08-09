@@ -1,29 +1,6 @@
 
 .photo-grid__item {
   background-size: cover;
-  max-height: 213px;
+  max-width: 100%;
 }
 
-
-@media screen and (max-width: 1024px) {
-
-  .photo-grid__item {
-    max-height: 225px;
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-
-  .photo-grid__item {
-    max-height: 264px;
-  }
-}
-
-
-@media screen and (max-width: 320px) {
-
-  .photo-grid__item {
-    height: 216px;
-  }
-}
