@@ -14,7 +14,7 @@
   .places__content {
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 450px) {
 
   .places__content {
     flex-direction: column;
