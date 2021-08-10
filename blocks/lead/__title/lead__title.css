@@ -5,19 +5,27 @@
   font-style: normal;
   font-weight: 900;
   font-size: 96px;
+  line-height: 100px;
 }
 
 @media screen and (max-width: 768px) {
 
   .lead__title {
-    margin-left: 24px;
-    margin-right: 24px;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 435px) {
+
+  .lead__title {
+    font-size: 68px;
   }
 }
 
 @media screen and (max-width: 320px) {
 
   .lead__title {
+    max-width: 288px;
     font-size: 40px;
     line-height: 44px;
     text-align: center;

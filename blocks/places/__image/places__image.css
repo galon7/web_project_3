@@ -1,9 +1,9 @@
 
 
 .places__image {
-  height: 460px;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  object-fit: contain;
+  max-width: 47.4%;
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -17,5 +17,13 @@
 
   .places__image {
     height: 340px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .places__image {
+    height: 320px;
+    max-width: 100%;
   }
 }

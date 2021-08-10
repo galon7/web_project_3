@@ -1,0 +1,17 @@
+.places__card {
+  margin: 0 0 80px;
+}
+
+@media screen and (max-width: 768px) {
+
+  .places__card{
+    margin: 0 0 72px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+  .places__card {
+    margin: 0 0 48px;
+  }
+}
