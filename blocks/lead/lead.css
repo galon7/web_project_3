@@ -24,5 +24,6 @@
 
   .lead {
     max-width: 320px;
+    margin-bottom: 64px;
   }
 }
