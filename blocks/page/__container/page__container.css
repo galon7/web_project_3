@@ -1,6 +1,6 @@
 .page__container {
   max-width: 92.5%;
-  margin: 34px auto 92px;
+  margin: 34px auto 24px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -10,17 +10,10 @@
   }
 }
 
-@media screen and (max-width: 768px) {
-
-  .page__container {
-    margin: 34px auto 88px;
-  }
-}
-
 @media screen and (max-width: 320px) {
 
   .page__container {
-    margin: 20px auto 64px;
+    margin: 20px auto 24px;
   }
 }
 
