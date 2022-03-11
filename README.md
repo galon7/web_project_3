@@ -11,7 +11,7 @@
 
 **New skills**
 
-* In this project I learned how to use Figma, CSS grid, use external fonts, optimize images, publish on GitHub pages and more.
+* In this very early project I learned how to use Figma, CSS grid, external fonts, optimize images, publish on GitHub pages and more.
 
 **Website**
 
