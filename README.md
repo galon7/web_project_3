@@ -1,10 +1,5 @@
 # Project 3: From Portland to Portland
 
-### Overview
-* Intro
-* New skills
-* Website
-
 **Intro**
 
 * This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes.
